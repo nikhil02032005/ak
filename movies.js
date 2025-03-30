@@ -59,7 +59,7 @@ function handleClick(page) {
         if (clickCounts.Hollywood === 1) {
             window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b", "_blank");
         } else if (clickCounts.Hollywood === 2) {
-            window.open('hollywood.html', '_blank');
+            window.open('Hollywood.html', '_blank');
             clickCounts.Hollywood = 0;  // Reset click count for Movies
         }
     }
