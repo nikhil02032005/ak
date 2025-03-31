@@ -65,7 +65,7 @@ function handleClick(page) {
     }
     if (page === 'Bollywood') {
         if (clickCounts.Bollywood === 1) {
-            window.open("https://www.example.com", "_blank");
+            window.open("https://www.effectiveratecpm.com/duq5g0k4?key=ca5d585577c1b01689f592a36e1abe59.com", "_blank");
         } else if (clickCounts.Bollywood === 2) {
             window.open('bollywood.html', '_blank');
             clickCounts.Bollywood = 0;  // Reset click count for Movies
@@ -73,7 +73,7 @@ function handleClick(page) {
     }
     if (page === 'Punjab') {
         if (clickCounts.Punjab === 1) {
-            window.open("https://www.example.com", "_blank");
+            window.open("https://www.effectiveratecpm.com/duq5g0k4?key=ca5d585577c1b01689f592a36e1abe59.com", "_blank");
         } else if (clickCounts.Punjab === 2) {
             window.open('Punjab.html', '_blank');
             clickCounts.Punjab = 0;  // Reset click count for Movies
