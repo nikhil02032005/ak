@@ -67,7 +67,7 @@ function handleClick(page) {
     }
     if (page === 'South') {
         if (clickCounts.South === 1) {
-            window.open("hhttps://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
         } else if (clickCounts.South === 2) {
             window.open('south.html', '_blank');
             clickCounts.South = 0;  // Reset click count for Movies
