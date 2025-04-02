@@ -30,17 +30,17 @@ function handleClick(page) {
     }
     if (page === 'Hollywood') {
         if (clickCounts.Hollywood === 1) {
-            window.open("https://www.example.com", "_blank");
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
         } else if (clickCounts.Hollywood === 2) {
-            window.open('https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.html', '_blank');
+            window.open('Hollywood.html', '_blank');
             clickCounts.Hollywood = 0;  // Reset click count for Movies
         }
     }
     if (page === 'Bollywood') {
         if (clickCounts.Bollywood === 1) {
-            window.open("https://www.example.com", "_blank");
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
         } else if (clickCounts.Bollywood === 2) {
-            window.open('https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.html', '_blank');
+            window.open('bollywood.html', '_blank');
             clickCounts.Bollywood = 0;  // Reset click count for Movies
         }
     }
@@ -56,7 +56,7 @@ function handleClick(page) {
         if (clickCounts.South === 1) {
             window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
         } else if (clickCounts.South === 2) {
-            window.open('movies.html', '_blank');
+            window.open('south.html', '_blank');
             clickCounts.South = 0;  // Reset click count for Movies
         }
     }
@@ -64,7 +64,7 @@ function handleClick(page) {
         if (clickCounts.Web  === 1) {
             window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
         } else if (clickCounts.Web  === 2) {
-            window.open('movies.html', '_blank');
+            window.open('web.html', '_blank');
             clickCounts.Web = 0;  // Reset click count for Movies
         }
     }

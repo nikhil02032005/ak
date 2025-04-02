@@ -20,6 +20,9 @@ const clickCounts = {
     Recruit:0,
     Severance:0,
     Strike:0,
+    pitt:0,
+    Beast:0,
+    power:0,
 }
 
 
@@ -172,6 +175,38 @@ function handleClick(page) {
         } else if (clickCounts.Strike === 2) {
             window.open('C.B. Strike The Ink Black Heart/C.B. Strike The Ink Black Heart.html', '_blank');
             clickCounts.Strike = 0;  // Reset click count for Movies
+        }
+    }
+    if (page === 'pitt') {
+        if (clickCounts.pitt === 1) {
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
+        } else if (clickCounts.pitt === 2) {
+            window.open('pitt/pitt.html', '_blank');
+            clickCounts.pitt = 0;  // Reset click count for Movies
+        }
+    }
+    if (page === 'Beast') {
+        if (clickCounts.Beast === 1) {
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
+        } else if (clickCounts.Beast === 2) {
+            window.open('Beast Games (Season 1)/Beast Games (Season 1).html', '_blank');
+            clickCounts.Beast = 0;  // Reset click count for Movies
+        }
+    }power
+    if (page === 'power') {
+        if (clickCounts.power === 1) {
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
+        } else if (clickCounts.power === 2) {
+            window.open('powerpaanch/powerpaanch.html', '_blank');
+            clickCounts.power = 0;  // Reset click count for Movies
+        }
+    }
+    if (page === 'sakamoto') {
+        if (clickCounts.sakamoto === 1) {
+            window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
+        } else if (clickCounts.sakamoto === 2) {
+            window.open('Sakamoto/sakamoto.html', '_blank');
+            clickCounts.sakamoto = 0;  // Reset click count for Movies
         }
     }
 }
