@@ -192,7 +192,7 @@ function handleClick(page) {
             window.open('Beast Games (Season 1)/Beast Games (Season 1).html', '_blank');
             clickCounts.Beast = 0;  // Reset click count for Movies
         }
-    }power
+    }
     if (page === 'power') {
         if (clickCounts.power === 1) {
             window.open("https://www.effectiveratecpm.com/wxmmscwyjt?key=3ad7df227f55ca82acc30e205189608b.com", "_blank");
